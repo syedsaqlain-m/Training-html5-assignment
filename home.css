@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.splitter{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+
+.splitter__total{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.splitter__section__one{
+    flex: 0.1;
+}
+
+.splitter__section__two{
+    flex: 0.3
+}
+
+.splitter__section__two__buttons{
+    display: flex;
+    flex: 0.29;
+    justify-content: center;
+    background-color: grey;
+}
+
+.splitter__section__two__buttons > div > button {
+   padding: 12px;
+   margin-top: 25px;
+   margin-left: 20px;
+}
+
+.splitter__section__three{
+    flex: 0.1;
+    display: flex;
+    flex-direction: column;
+}
+
+.splitter__section__three > button{
+    border-radius: 50px;
+    border: 0.5px grey;
+    width: 30px;
+    height: 30px;
+    justify-content: space-between;
+}
+.splitter__section__three > div {
+    margin-top: 40px;
+    width: fit-content;
+}
+
+.splitter__section__three__remove{
+    flex: 0.1;
+    flex-direction: column;
+    background-color: orange;
+}
+
+
+#product__image{
+width: fit-contain;
+height: 90px;
+}
+
+.checkout__button{
+    background-color: rgb(9, 146, 209);
+    height: 40px;
+    padding: 10px;
+    width: 300px;
+    font-size: large;
+    color: snow;
+}
+
